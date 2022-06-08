@@ -1,6 +1,11 @@
 import React from "react";
+import TaskApp from "./components/TaskApp";
+import task from "./data/tasks.json";
 function App() {
-  return <div>{/* Code Here */}</div>;
+  console.log(task)
+  return <div>
+    <TaskApp data = {task}/>
+  </div>;
 }
 
 export default App;
